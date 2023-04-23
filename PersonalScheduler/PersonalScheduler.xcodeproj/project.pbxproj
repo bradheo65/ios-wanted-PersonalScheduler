@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D260366D8ED2742D2457834 /* Pods_PersonalScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E231B816D0880DA22F05C8B /* Pods_PersonalScheduler.framework */; };
+		A38A78F929ED2D0B00213CC7 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = A38A78F829ED2D0B00213CC7 /* FacebookCore */; };
+		A38A78FB29ED2D0B00213CC7 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = A38A78FA29ED2D0B00213CC7 /* FacebookLogin */; };
+		A38A78FE29ED2D8100213CC7 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A38A78FD29ED2D8100213CC7 /* KakaoSDKAuth */; };
+		A38A790029ED2D8100213CC7 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = A38A78FF29ED2D8100213CC7 /* KakaoSDKCommon */; };
+		A38A790229ED2D8100213CC7 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790129ED2D8100213CC7 /* KakaoSDKTalk */; };
+		A38A790429ED2D8100213CC7 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790329ED2D8100213CC7 /* KakaoSDKUser */; };
+		A38A790729ED2E1000213CC7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790629ED2E1000213CC7 /* FirebaseAuth */; };
+		A38A790929ED2E1000213CC7 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790829ED2E1000213CC7 /* FirebaseAuthCombine-Community */; };
+		A38A790B29ED2E1000213CC7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790A29ED2E1000213CC7 /* FirebaseFirestore */; };
+		A38A790D29ED2E1000213CC7 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790C29ED2E1000213CC7 /* FirebaseFirestoreCombine-Community */; };
+		A38A790F29ED2E1000213CC7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A38A790E29ED2E1000213CC7 /* FirebaseFirestoreSwift */; };
+		A38A791129ED2E1000213CC7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A38A791029ED2E1000213CC7 /* FirebaseStorage */; };
+		A38A791329ED2E1000213CC7 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A38A791229ED2E1000213CC7 /* FirebaseStorageCombine-Community */; };
+		A38A791629ED2E5600213CC7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A38A791529ED2E5600213CC7 /* Alamofire */; };
 		A3B8DB02296EEC91002BCB36 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8DB01296EEC91002BCB36 /* NotificationManager.swift */; };
 		A3B8DB05296FBC7B002BCB36 /* KakaoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8DB04296FBC7B002BCB36 /* KakaoInfo.swift */; };
 		A3B8DB07296FBC90002BCB36 /* UserInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8DB06296FBC90002BCB36 /* UserInfoData.swift */; };
@@ -35,8 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		348C73AD9D4B09F2298C3145 /* Pods-PersonalScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalScheduler.debug.xcconfig"; path = "Target Support Files/Pods-PersonalScheduler/Pods-PersonalScheduler.debug.xcconfig"; sourceTree = "<group>"; };
-		4E231B816D0880DA22F05C8B /* Pods_PersonalScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B8DB01296EEC91002BCB36 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		A3B8DB04296FBC7B002BCB36 /* KakaoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoInfo.swift; sourceTree = "<group>"; };
 		A3B8DB06296FBC90002BCB36 /* UserInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoData.swift; sourceTree = "<group>"; };
@@ -64,7 +75,6 @@
 		A3EB6994296BE351004F492A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A3EB6995296BE8C0004F492A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A3EB6998296BEFF2004F492A /* KakaoLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginManager.swift; sourceTree = "<group>"; };
-		B2A015D98D277D0327F3E886 /* Pods-PersonalScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalScheduler.release.xcconfig"; path = "Target Support Files/Pods-PersonalScheduler/Pods-PersonalScheduler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,22 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D260366D8ED2742D2457834 /* Pods_PersonalScheduler.framework in Frameworks */,
+				A38A791629ED2E5600213CC7 /* Alamofire in Frameworks */,
+				A38A790929ED2E1000213CC7 /* FirebaseAuthCombine-Community in Frameworks */,
+				A38A78F929ED2D0B00213CC7 /* FacebookCore in Frameworks */,
+				A38A790B29ED2E1000213CC7 /* FirebaseFirestore in Frameworks */,
+				A38A78FB29ED2D0B00213CC7 /* FacebookLogin in Frameworks */,
+				A38A790D29ED2E1000213CC7 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A38A790429ED2D8100213CC7 /* KakaoSDKUser in Frameworks */,
+				A38A790229ED2D8100213CC7 /* KakaoSDKTalk in Frameworks */,
+				A38A791329ED2E1000213CC7 /* FirebaseStorageCombine-Community in Frameworks */,
+				A38A791129ED2E1000213CC7 /* FirebaseStorage in Frameworks */,
+				A38A790029ED2D8100213CC7 /* KakaoSDKCommon in Frameworks */,
+				A38A78FE29ED2D8100213CC7 /* KakaoSDKAuth in Frameworks */,
+				A38A790729ED2E1000213CC7 /* FirebaseAuth in Frameworks */,
+				A38A790F29ED2E1000213CC7 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A7BB1AE5A601E3102380819 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				348C73AD9D4B09F2298C3145 /* Pods-PersonalScheduler.debug.xcconfig */,
-				B2A015D98D277D0327F3E886 /* Pods-PersonalScheduler.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		A3B8DB0F2970F241002BCB36 /* LoginManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,8 +166,6 @@
 			children = (
 				A3EB6984296BAFB4004F492A /* PersonalScheduler */,
 				A3EB6983296BAFB4004F492A /* Products */,
-				5A7BB1AE5A601E3102380819 /* Pods */,
-				DFC1B11B109C7ECC476FC565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,14 +231,6 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
-		DFC1B11B109C7ECC476FC565 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4E231B816D0880DA22F05C8B /* Pods_PersonalScheduler.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,17 +238,31 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3EB6990296BAFB5004F492A /* Build configuration list for PBXNativeTarget "PersonalScheduler" */;
 			buildPhases = (
-				D815D1CD1B10C3E5AFE085F5 /* [CP] Check Pods Manifest.lock */,
 				A3EB697E296BAFB4004F492A /* Sources */,
 				A3EB697F296BAFB4004F492A /* Frameworks */,
 				A3EB6980296BAFB4004F492A /* Resources */,
-				DAB5FAF36307DD552DD7A463 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PersonalScheduler;
+			packageProductDependencies = (
+				A38A78F829ED2D0B00213CC7 /* FacebookCore */,
+				A38A78FA29ED2D0B00213CC7 /* FacebookLogin */,
+				A38A78FD29ED2D8100213CC7 /* KakaoSDKAuth */,
+				A38A78FF29ED2D8100213CC7 /* KakaoSDKCommon */,
+				A38A790129ED2D8100213CC7 /* KakaoSDKTalk */,
+				A38A790329ED2D8100213CC7 /* KakaoSDKUser */,
+				A38A790629ED2E1000213CC7 /* FirebaseAuth */,
+				A38A790829ED2E1000213CC7 /* FirebaseAuthCombine-Community */,
+				A38A790A29ED2E1000213CC7 /* FirebaseFirestore */,
+				A38A790C29ED2E1000213CC7 /* FirebaseFirestoreCombine-Community */,
+				A38A790E29ED2E1000213CC7 /* FirebaseFirestoreSwift */,
+				A38A791029ED2E1000213CC7 /* FirebaseStorage */,
+				A38A791229ED2E1000213CC7 /* FirebaseStorageCombine-Community */,
+				A38A791529ED2E5600213CC7 /* Alamofire */,
+			);
 			productName = PersonalScheduler;
 			productReference = A3EB6982296BAFB4004F492A /* PersonalScheduler.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +292,12 @@
 				ko,
 			);
 			mainGroup = A3EB6979296BAFB4004F492A;
+			packageReferences = (
+				A38A78F729ED2D0B00213CC7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A38A791429ED2E5600213CC7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A3EB6983296BAFB4004F492A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,48 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D815D1CD1B10C3E5AFE085F5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PersonalScheduler-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DAB5FAF36307DD552DD7A463 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PersonalScheduler/Pods-PersonalScheduler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PersonalScheduler/Pods-PersonalScheduler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PersonalScheduler/Pods-PersonalScheduler-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3EB697E296BAFB4004F492A /* Sources */ = {
@@ -488,7 +470,6 @@
 		};
 		A3EB6991296BAFB5004F492A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 348C73AD9D4B09F2298C3145 /* Pods-PersonalScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,7 +500,6 @@
 		};
 		A3EB6992296BAFB5004F492A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A015D98D277D0327F3E886 /* Pods-PersonalScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -570,6 +550,114 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A38A78F729ED2D0B00213CC7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		A38A791429ED2E5600213CC7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A38A78F829ED2D0B00213CC7 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78F729ED2D0B00213CC7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		A38A78FA29ED2D0B00213CC7 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78F729ED2D0B00213CC7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		A38A78FD29ED2D8100213CC7 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		A38A78FF29ED2D8100213CC7 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		A38A790129ED2D8100213CC7 /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		A38A790329ED2D8100213CC7 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A78FC29ED2D8100213CC7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		A38A790629ED2E1000213CC7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A38A790829ED2E1000213CC7 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A38A790A29ED2E1000213CC7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A38A790C29ED2E1000213CC7 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A38A790E29ED2E1000213CC7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A38A791029ED2E1000213CC7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A38A791229ED2E1000213CC7 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A790529ED2E1000213CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		A38A791529ED2E5600213CC7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38A791429ED2E5600213CC7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3EB697A296BAFB4004F492A /* Project object */;
 }
